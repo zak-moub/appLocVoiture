@@ -1,0 +1,9 @@
+<h1> <%= @agence.libelle %> </h1>
+<p> Ceci est la description de l'agence <%= @agence.libelle  %> </p>
+
+<%= @agence.email %> <br/>
+<%= @agence.adresse %> <br/>
+<%= @agence.telephone %>
+
+<%= link_to "Modifier une agence", edit_agence_path(@agence) %>
+<%= link_to "Supprimer #{@agence.libelle}", agence_path(@agence), method: :delete %>

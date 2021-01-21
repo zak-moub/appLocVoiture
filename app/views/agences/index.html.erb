@@ -1,0 +1,9 @@
+<h1> La liste des agences </h1>
+
+<ul>
+  <% @agences.each do |agence| %>
+    <li><%= link_to  agence.libelle, agence_path(agence) %> </li>
+  <% end %>
+</ul>
+
+<%= link_to "Ajouter une agence", new_agence_path %>
