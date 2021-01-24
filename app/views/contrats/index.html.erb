@@ -2,7 +2,7 @@
 
 <ul>
   <% @contrats.each do |contrat| %>
-    <li><%= link_to  contrat.numero, contrat_path(contrat) %> </li>
+    <li><%= link_to  contrat.id, contrat_path(contrat) %> </li>
   <% end %>
 </ul>
 

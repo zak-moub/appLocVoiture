@@ -1,0 +1,9 @@
+<h1> La liste des réservations </h1>
+
+<ul>
+  <% @reservations.each do |reservation| %>
+    <li>Réservation numéro <%= link_to  reservation.id, reservation_path(reservation) %>   du client id_client </li>
+  <% end %>
+</ul>
+
+<%= link_to "Ajouter une réservation", new_reservation_path %>

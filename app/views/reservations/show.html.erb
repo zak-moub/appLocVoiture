@@ -1,0 +1,10 @@
+<h1> Réservation du <%= @reservation.date_reservation %> pour le client id_client </h1>
+<p> Ceci est la description de la réservation <%= @reservation.id  %> </p>
+
+Date réservation : <%= @reservation.date_reservation %> <br/>
+Compteur : <%= @reservation.compteur_km %> <br/>
+Montant de la réservation : <%= @reservation.montant %> <br/>
+Montant avec réduction : <%= @reservation.montant_reduit %> <br/>
+<p>Nom du client : " " et id_client : " "</p> <br/>
+<%= link_to "Modifier la réservation", edit_reservation_path(@reservation) %>
+<%= link_to "Supprimer la réservation du  #{@reservation.date_reservation}", reservation_path(@reservation), method: :delete %>
