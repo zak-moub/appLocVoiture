@@ -1,0 +1,9 @@
+<h1> La liste des contrats </h1>
+
+<ul>
+  <% @contrats.each do |contrat| %>
+    <li><%= link_to  contrat.numero, contrat_path(contrat) %> </li>
+  <% end %>
+</ul>
+
+<%= link_to "Ajouter une contrat", new_contrat_path %>

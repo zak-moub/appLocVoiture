@@ -1,0 +1,9 @@
+<h1> <%= @contrat.numero %> </h1>
+<p> Ceci est la description du contrat <%= @contrat.numero  %> </p>
+
+Numéro du contrat : <%= @contrat.numero %> <br/>
+Date de départ : <%= @contrat.date_depart %> <br/>
+Date de retour : <%= @contrat.date_retour %> <br/>
+
+<%= link_to "Modifier le contrat", edit_contrat_path(@contrat) %>
+<%= link_to "Supprimer #{@contrat.numero}", contrat_path(@contrat), method: :delete %>
