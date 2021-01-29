@@ -13,8 +13,8 @@ Les utilisateurs devront pouvoir s'authentifier en tant que loueur ou concession
 
 ## Démarrage
 
-rails server (en développement)
-heroku open (en production)
+* rails server (en développement)
+* heroku open (en production)
 
 ## Fabriqué avec
  * [Ruby on Rails](https://rubyonrails.org/) - Framework Ruby
@@ -26,5 +26,5 @@ heroku open (en production)
  *...
 
 ## Auteurs
-* **Zakaria Moubarak** _alias_ [@ndeya97](https://github.com/ndeya97)
+* **Zakaria Moubarak** _alias_ [@zak-moub](https://github.com/zak-moub)
 * **Ndeya Awa Diop** _alias_ [@ndeya97](https://github.com/ndeya97)
