@@ -1,0 +1,9 @@
+Zakaria MOUBARAK
+	- Analyse (en binome)
+	- Agences CRUD Implementation (en binome)
+	-Frontend (solo)
+
+Ndeye Awa DIOP
+	- Analyse (en binome)
+	- Agences CRUD Implementation (en binome)
+ 	- Backend (solo)
