@@ -35,9 +35,9 @@ class ReservationsController < ApplicationController
   end
 
   def facture 
-    #generate_facture
-    #FactureWorker.perform_async("29-01-2021","30-01-2021")
-    #render text: "REQUEST TO GENERATE A FACTURE ADDED TO THE QUEUE"
+    #generate_facture()
+    FactureWorker.perform_async()
+    render text: "REQUEST TO GENERATE A FACTURE ADDED TO THE QUEUE"
   end
 
   private
@@ -50,7 +50,7 @@ class ReservationsController < ApplicationController
   end
 
   def generate_facture
-    #sleep 30
+    sleep 30
   end 
 
 end
