@@ -18,7 +18,7 @@ Les utilisateurs devront pouvoir s'authentifier en tant que loueur ou concession
 
 ## Fabriqué avec
  * [Ruby on Rails](https://rubyonrails.org/) - Framework Ruby
- * [PostgreSQL](https://www.postgresql.org/) - Framework Ruby 
+ * [PostgreSQL](https://www.postgresql.org/) - Relational Database 
  * Redis
  * Sideqik
  * Faker
