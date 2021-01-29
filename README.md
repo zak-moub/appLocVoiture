@@ -1,24 +1,30 @@
-# README
+# Une application web de location de voiture.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)  [![forthebadge](http://forthebadge.com/images/badges/powered-by-electricity.svg)](http://forthebadge.com)
 
-Things you may want to cover:
+L’objectif de ce projet est la conception et à la mise en place d’une application qui informatise les opérations liées à la gestion de locations de voiture. 
 
-* Ruby version
+L’application permet à un utilisateur donné de louer ou une voiture à un vendeur particulier(concessionnaire).
 
-* System dependencies
+Le vendeur pourra assurer la gestion de ses véhicules sur la plateforme. Donc il pourra ajouter/créer, modifier, supprimer,etc un ou plusieurs véhicules à sa concession. Il pourra accepter ou refuser de louer un véhicule à un utilisateur en fonction des critères de sélection de la demande de location.
 
-* Configuration
+Les utilisateurs devront pouvoir s'authentifier en tant que loueur ou concessionnaire.
 
-* Database creation
 
-* Database initialization
+## Démarrage
 
-* How to run the test suite
+rails server (en développement)
+heroku open (en production)
 
-* Services (job queues, cache servers, search engines, etc.)
+## Fabriqué avec
+ * [Ruby on Rails](https://rubyonrails.org/) - Framework Ruby
+ * [PostgreSQL](https://www.postgresql.org/) - Framework Ruby 
+ * Redis
+ * Sideqik
+ * Faker
+ * Boostrap
+ *...
 
-* Deployment instructions
-
-* ...
+## Auteurs
+* **Zakaria Moubarak** _alias_ [@ndeya97](https://github.com/ndeya97)
+* **Ndeya Awa Diop** _alias_ [@ndeya97](https://github.com/ndeya97)
