@@ -35,6 +35,10 @@ gem 'bootsnap', '>= 1.4.4', require: false
 #This gem is a port of Perl's Data::Faker library that generates fake data.
 gem 'faker'
 
+#Gem Version Build. Simple, efficient background processing for Ruby
+gem 'sidekiq'
+#Sinatra is a DSL for quickly creating web applications in Ruby with minimal effort
+gem 'sinatra', github: 'sinatra/sinatra'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

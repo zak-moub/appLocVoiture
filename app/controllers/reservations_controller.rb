@@ -34,6 +34,12 @@ class ReservationsController < ApplicationController
     redirect_to reservations_path
   end
 
+  def facture 
+    #generate_facture
+    #FactureWorker.perform_async("29-01-2021","30-01-2021")
+    #render text: "REQUEST TO GENERATE A FACTURE ADDED TO THE QUEUE"
+  end
+
   private
   def reservation_params
     params.require(:reservation).permit(:date_reservation, :compteur_km, :montant, :montant_reduit)
@@ -42,4 +48,9 @@ class ReservationsController < ApplicationController
   def set_reservation
     @reservation = Reservation.find(params[:id])
   end
+
+  def generate_facture
+    #sleep 30
+  end 
+
 end
